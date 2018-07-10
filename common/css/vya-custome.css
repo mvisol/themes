@@ -1,0 +1,34 @@
+ul.menu { margin: 0;padding: 0;bottom: 0;left: 20px;width: 90%;}
+ul#testul{color:red;}
+.teatclass{color:blue;}
+ul.menu li {display: inline;margin: 0;}
+ul.menu, ul.menu li a {padding: 2px 15px;}
+ul.menu li a {color: white;margin: 0;padding-top:5px;padding-bottom:3px;}
+ul.menu li a:hover {background: #333;color: #eee !important;text-decoration: none;}
+ul.menu li.current_page_item a, ul.menu li.current_page_item a:hover {color: #333 !important;background: #EEE;text-decoration: none;}
+.admintab {position: absolute;right: 0px;}
+* html .admintab { padding: 5px 15px 6px }    /* IE hack */
+ul.menu li.searchtab {position: absolute;right: 0;padding: 0;}
+ul.menu li.searchtab .quicksearch {bottom: 5px;}
+
+/*-- Utility Area --*/
+#utility {position:relative;height : 3.1em;font-size: 90%;}
+#utility ul.flatlinks {position: absolute;top: 8px;left: 15px;}
+#utility .quicksearch {position: absolute;top: 4px;right: 15px;}
+
+/*-- Flat Links --*/
+
+ul.flatlinks {margin: 0;padding: 0;}
+ul.flatlinks li {display: inline;margin: 0;border-left:1px solid #AAA;padding: 0 5px 0 7px;}
+ul.flatlinks li.first {border-left:0;padding-left:0;}
+ul.flatlinks li a {margin: 0;}
+
+#header .dropnav {position: absolute;right: 15px;top: 0;background: #FFF;border: 1px solid #DDD;border-top: 0;padding: 4px 10px;}
+#topquicklink .dropnav ul {display:inline;}
+#topquicklink .sidearea {position: absolute;right: 5px;bottom: 5px;color: #FFFFFF;}
+#topquicklink .sidearea ul.flatlinks { display: inline; }
+#topquicklink .sidearea ul.flatlinks li { border-left: 0; border-right: 1px solid #EEE; }
+#topquicklink .sidearea .quicksearch { display: inline; }
+#topquicklink .sidearea form { display: inline; }
+#topquicklink .sidearea a { color: #FFF; }
+#topquicklink .quicksearch label {color: #FFFFFF;}

@@ -1,0 +1,75 @@
+/*-- If you'd like to override a style, such as a width or color
+in template.css or basicui.css, it is highly recommended that you
+override the style in appspecific.css. --*/
+
+/*@import "vyastyle.css"; -- Contains styles for the template shell of the page --*/
+/*@import "commonui.css"; -- Contains common style for all themes --*/
+@import "vya-layout.css"; /*-- Contains layout styles for all themes --*/
+/*@import "pro_drop_1.css"; -- Contains menu styles for all themes --*/
+/*@import "overlay.css"; -- Contains div overlay styles for all themes --*/
+ 
+ /*Ref : https://erpnext.com/benefits.html  Sub Menu */
+ 
+ ul.subnav {
+  position: absolute;
+  background-color:#ccc;
+  top: 50%;
+  left: 25%;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;
+}
+ul.subnav li a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: bold;
+  color: #222;
+  white-space: nowrap;
+}
+ul.subnav li {border:none;padding:0;}
+ul.subnav li > a:hover,
+ul.subnav li > a:focus,
+ul.subnav:hover > a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #0088cc;
+  background-color: #0081c2;
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+}
+
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-top: 4px solid #222;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+  margin-top: 8px;
+  margin-left: 2px;
+}

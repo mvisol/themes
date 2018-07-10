@@ -1,0 +1,39 @@
+
+div#notificationBox {
+display: none;
+position: absolute;
+z-index: 3;
+width: 300px; 
+height: 150px;
+background: #EEE;
+color: #000;
+}
+
+div#profileBox {
+display: none;
+margin: 0 0 0 -32px;
+position: absolute;
+z-index: 3;
+width: 300px; 
+height: 150px;
+background: #EEE;
+color: #000;
+}
+
+div#overlay {
+display: none;
+z-index: 2;
+position: fixed;
+top: 0px;
+left: 0px;
+text-align: center;
+}
+
+div#overlay1 {
+display: none;
+z-index: 2;
+position: fixed;
+top: 0px;
+left: 0px;
+text-align: center;
+}

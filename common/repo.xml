@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo" xmlns:repo="http://exist-db.org/xquery/repo">
+    <description>description</description>
+    <author>ilavarasan</author>
+    <website>http://quiz.vyasaka.com</website>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>/db/themes/common</target>
+    <prepare/>
+    <finish/>
+    <permissions user="core-admin" password="admin" group="core-user" mode="0744"/>
+    <deployed>2016-07-25T12:55:54.202+05:30</deployed>
+</meta>

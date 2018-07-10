@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://expath.org/ns/pkg" name="http://vyasaka.com/vya-platform/3-common" abbrev="vya##platform##3-common" version="1.1.2" spec="1.0">
+    <title>Platform Theme Common</title>
+</package>
